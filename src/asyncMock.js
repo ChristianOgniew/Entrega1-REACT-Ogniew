@@ -6,7 +6,7 @@ const products = [
     category: "Remera",
     img: "../images/BurberryRemera.png",
     stock: 25,
-    description: "Descripcion de Remera Burberry",
+    description: "Remera Burberry color Negro de L a XXL",
   },
   {
     id: "2",
@@ -15,7 +15,7 @@ const products = [
     category: "remera",
     img: "../images/MonclerRemera.png",
     stock: 20,
-    description: "Descripcion de Remera Moncler",
+    description: "Remera Moncler color Negro de L a XXL",
   },
   {
     id: "3",
@@ -24,7 +24,7 @@ const products = [
     category: "remera",
     img: "../images/EssentialRemera.png",
     stock: 15,
-    description: "Descripcion de Remera Essentials",
+    description: "Remera Essentials color Negro de L a XXL",
   },
 ];
 

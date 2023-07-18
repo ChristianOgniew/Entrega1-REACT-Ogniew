@@ -18,11 +18,11 @@ const ItemCount = ({ stock, initial, onAdd }) => {
 
   return (
     <div className="Counter">
-      <div className="Controls">
+      <div className="Controls d-flex justify-content-center">
         <button className="Button" onClick={decrement}>
           -
         </button>
-        <h4 className="Number">{quantity}</h4>
+        <h4 className="Number p-2">{quantity}</h4>
         <button className="Button" onClick={increment}>
           +
         </button>
@@ -30,7 +30,7 @@ const ItemCount = ({ stock, initial, onAdd }) => {
 
       <div>
         <button
-          className="Button"
+          className="Button m-2"
           onClick={() => onAdd(quantity)}
           disable={!stock}
         >
